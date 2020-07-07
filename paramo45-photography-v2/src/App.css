@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+Infant&display=swap');
+
+/* GENERAL STYLES */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+.App {
+  text-align: center;
+  background-color: #DCD4CC;
+}
+
+h1, h2, h3, h4, h5, h6, a, button {
+  font-family: 'Cormorant Infant', serif;
+}
+
+ a {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p, form {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* TOP SECTION */
+
+.top-section {
+  background-image: url(./images/banner.jpg);
+  height: 990px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title{
+  padding: 12% 0 0 33%;
+}
+
+.paramo-title {
+    font-style: italic;
+    font-size: 11rem;
+    font-weight: normal;
+}
+
+.photo-title {
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+/* ABOUT ME */
+
+.about {
+  width: 100%;
+  margin: 9% 0;
+  background-color:#FCF4E4;
+  padding-bottom: 5%;
+}
+
+.about p {
+    font-size: 2.5rem;
+    width: 41%;
+    text-align: center;
+    margin-left: 29%;
+    padding: 4%;
+    font-style: italic;
+}
+
+.about-bttn {
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid #987C6B;;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #272727;
+  margin: 0 1em;
+  padding: 0.25em 3em;
+  text-align: center;
+}
+
+.about-bttn:hover {
+  color: #272727;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.12), 0 2px 3px 2px rgba(0, 0, 0, 0.24);
+  background: #A48B74;
+}
+.about-bttn:active {
+  background: #DCC4A9;
+          box-shadow: inset 0px 0px 5px #A48B74;
+   outline: none;
+}
+
+
+/* PHOTO CATEGORIES */
+
+
+/*SOCIAL MEDIA SECTION */
+
+.social-container {
+  background-color: beige;
+  padding: 3% 5%;
+}
+
+.social-container h3 {
+    font-size: 2.5rem;
+    padding-bottom: 2%;
+}
+
+.social-container a {
+  padding: 0 5%;
+  transition:transform 400ms; 
+  /* Transition is used to determine a change within the icons. In this case, we want the icons to move up when we hover over them
+   - transform will determine HOW FAST will the icon move UP in MILLISECONDS */
+  display: inline-block;
+   /* We are setting it up to INLINE BLOCK in order to allow "translate" property to woek on inline elements
+    - By default, "translate property on line 62 does not work on inline elements"
+  */
+}
+
+/* This will create a hover effect when we scroll the mouse over the SM icon 
+  "translateY(-2px)" will send the icon UP when we hover over it
+*/
+ .social-container a:hover {
+  transform: translateY(10px);
+}
+
+.instagram {
+  color: black;
+}
+.twitter {
+  color: #49a1eb;
+}
+.youtube {
+  color: #eb3223;
+}
+
+
+/* MOBILE MEDIA QUERY */
+
+@media (max-width: 540px) {
+  a {
+    font-size: 2.5rem;
+  }
+ 
+  .top-section {
+    height: 68rem;
+    background-attachment: fixed;
+    background-size: 100% 80%;
+  }
+  .title {
+    padding: 54% 0;
+  }
+  .paramo-title {
+    font-size: 3rem;
+   }
+   .photo-title {
+    font-size: 2rem;
+   }
+   .about p {
+    font-size: 2rem;
+    width: 69%;
+    margin-left: 17%;
+    padding: 9%;
+   }
+}
