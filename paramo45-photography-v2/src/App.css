@@ -98,6 +98,19 @@ p, form {
 
 /* PHOTO CATEGORIES */
 
+.imagesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 22vw);
+  gap: 1.5rem;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 /*SOCIAL MEDIA SECTION */
 

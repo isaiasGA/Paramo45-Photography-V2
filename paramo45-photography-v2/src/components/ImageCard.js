@@ -1,53 +1,61 @@
-import React, { useState } from 'react';
-import Lightbox from 'fslightbox-react';
+import React  from 'react';
+import {SRLWrapper} from 'simple-react-lightbox'
+            //beach
+import image1 from '../images/DSC0035.jpg';
+import image2 from '../images/_DSC0037.jpg'
+import image3 from '../images/_DSC0059.jpg'
+import image4 from '../images/_DSC010.jpg'
+import image5 from '../images/DSC_0051.jpg'
+import image6 from '../images/_DSC0130.jpg'
+import image7 from '../images/DSC_0125.jpg'
+import image8 from '../images/DSC_0022.jpg'
+import image9 from '../images/DSC_0044.jpg'
+// import image10 from '../images/_DSC.jpg'
+// import image11 from '../images/_DSC.jpg'
+// import image12 from '../images/_DSC.jpg'
+// import image13 from '../images/_DSC.jpg'
+// import image14 from '../images/_DSC.jpg'
+// import image15 from '../images/_DSC.jpg'
+// import image from '../images/_DSC.jpg'
 
-const ImageGallery = ({ images, modalImage }) => {
-  console.log(images)
+const ImageGallery = () => {
 
- const [controller, setController]  = useState({
-   toggleVisible: false,
-   slide: 1
- })
-
-  const showSlide = (number) => {
-    setController({
-      toggleVisible: !controller.toggleVisible,
-      slide: number
-    })
-  }
-
- const {urls, alt_description} = images; 
   return(
     <>
-    <Lightbox
-      toggler={controller.toggleVisible}
-      slide={controller.imageSlide}
-      sources={[`${modalImage}`]}
-    />
-      <div className='ui large images'>
-       <img className='ui image' onClick={() => showSlide(1)} src={urls.regular} alt={alt_description}/>
-      </div>
+      <SRLWrapper>
+        <div className='imagesContainer'>
+          <div className='galleryImg img1'>
+            <img className='image' src={image1} alt={'silhouette at the beach'}/>
+          </div>
+          <div className='galleryImg img2'>
+            <img className='image' src={image2} alt={'architecture'}/>
+          </div>
+          <div className='galleryImg img3'>
+            <img className='image' src={image3} alt={'three lights on freeway'}/>
+          </div>
+          <div className='galleryImg img4'>
+            <img className='image' src={image4} alt={'two people walking'}/>
+          </div>
+          <div className='galleryImg img5'>
+            <img className='image' src={image5} alt={'seagull'}/>
+          </div>
+          <div className='galleryImg img6'>
+            <img className='image' src={image6} alt={'mountain'}/>
+          </div>
+          <div className='galleryImg img7'>
+            <img className='image' src={image7} alt={'tree branches'}/>
+          </div>
+          <div className='galleryImg img8'>
+            <img className='image' src={image8} alt={'street artist'}/>
+          </div>
+          <div className='galleryImg img9'>
+            <img className='image' src={image9} alt={'restaurant at the pier'}/>
+          </div>
+        </div>
+      </SRLWrapper>
     </> 
-    );
-
-   
+    );  
 }
 
 
 export default ImageGallery;
-
-
-// <>
-// <button onClick={() => setToggler(!toggler)}>
-// Toggle Lightbox
-// </button>
-// <FsLightbox
-// toggler={toggler}
-// sources={[
-// 'images/random-image.jpg',
-// 'https://i.imgur.com/fsyrScY.jpg',
-// 'https://www.youtube.com/watch?v=xshEZzpS4CQ',
-// 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
-// ]}
-// />
-// </>
