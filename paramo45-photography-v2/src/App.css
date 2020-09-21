@@ -96,13 +96,24 @@ p, form {
 }
 
 
-/* PHOTO CATEGORIES */
+/*Gallery*/
 
 .imagesContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 22vw);
-  gap: 1.5rem;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(20, 5vw);
+  grid-gap: .5rem;
+  margin: .5%;
+}
+
+.galleryImg img {
+  cursor: pointer;
+  transition: 0s ease-in-out;
+  filter: grayscale(0);
+}
+
+.galleryImg:hover img{
+  filter: grayscale(100%);
 }
 
 .image {
@@ -110,6 +121,293 @@ p, form {
   height: 100%;
   object-fit: cover;
 }
+
+.img1 {
+  grid-row-start: 1;
+  grid-row-end: 3; 
+}
+
+.img2 {
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 4;
+}
+
+.img3 {
+  grid-column-start: 6;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+
+.img4 {
+  grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+
+}
+
+.img5 {
+  grid-column-start: 6;
+  grid-row-start: 9;
+  grid-row-end: 11;
+}
+
+.img6 {
+  grid-column-start: 8;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.img7 {
+  grid-column-start: 2;
+  grid-row-start: 11;
+  grid-row-end: 13;
+  grid-column-end: 4;
+}
+
+.img8 {
+  grid-row-start: 11;
+  grid-column-start: 4;
+  grid-row-end: 13;
+}
+
+.img9 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.img10 {
+  grid-row-start: 19;
+  grid-column-start: 3;
+  grid-row-end: 21;
+}
+
+.img11 {
+  grid-column-start: 8;
+  grid-row-start: 9;
+  grid-row-end: 11;
+}
+
+.img12 {
+  grid-column-start: 2;
+  grid-row-start: 9;
+  grid-row-end: 11;
+}
+
+.img13 {
+  grid-column-start: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.img14 {
+  grid-row-start: 3;
+  grid-column-start: 7;
+  grid-row-end: 5;
+}
+
+.img15 {
+  grid-column-start: 8;
+  grid-row-start: 13;
+  grid-row-end: 17;
+}
+
+.img16 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+
+.img17 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9
+}
+
+.img18 {
+  grid-column-start: 7;
+  grid-row-start: 5;
+  grid-column-end: 9;
+  grid-row-end: 9;
+}
+
+.img19 {
+  grid-row-start: 17;
+  grid-row-end: 19;
+}
+
+.img20 {
+  grid-column-start: 1;
+  grid-row-start: 15;
+  grid-row-end: 17;
+}
+
+.img21 {
+  grid-row-start: 19;
+  grid-row-end: 21;
+}
+
+.img22 {
+  grid-column-start: 7;
+  grid-row-start: 13;
+  grid-row-end: 17;
+}
+
+.img23 {
+  grid-column-start: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 8;
+}
+
+.img24 {
+  grid-column-start: 4;
+  grid-row-start: 17;
+  grid-row-end: 19;
+}
+
+.img25 {
+  grid-column-start: 5;
+  grid-row-start: 7;
+  grid-row-end: 11;
+}
+
+.img26 {
+  grid-row-end: 5;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.img27 {
+  grid-column-start: 4;
+  grid-row-start: 13;
+  grid-row-end: 17;
+}
+
+.img28 {
+  grid-column-start: 2;
+  grid-row-start: 15;
+  grid-column-end: 4;
+  grid-row-end: 19;
+}
+
+.img29 {
+  grid-column-start: 3;
+  grid-row-start: 13;
+  grid-row-end: 15;
+}
+
+.img30 {
+  grid-column-start: 5;
+  grid-row-start: 17;
+  grid-row-end: 21;
+  grid-column-end: 7;
+}
+
+.img31 {
+  grid-row-start: 13;
+  grid-row-end: 15;
+}
+
+.img32 {
+  grid-column-start: 5;
+  grid-row-start: 3;
+  grid-column-end: 7;
+  grid-row-end: 7;
+}
+
+.img33 {
+  grid-column-start: 7;
+  grid-row-start: 9;
+  grid-row-end: 11;
+}
+
+.img34 {
+  grid-column-start: 3;
+  grid-row-start: 7;
+  grid-column-end: 5;
+  grid-row-end: 11;
+}
+
+.img35 {
+  grid-column-start: 5;
+  grid-row-start: 11;
+  grid-column-end: 7;
+  grid-row-end: 15;
+}
+
+.img36 {
+  grid-row-start: 17;
+  grid-row-end: 19;
+}
+
+.img37 {
+  grid-column-start: 1;
+  grid-row-start: 17;
+  grid-row-end: 19;
+}
+
+.img38 {
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+
+.img39 {
+  grid-column-start: 1;
+  grid-row-start: 19;
+  grid-row-end: 21;
+  grid-column-end: 3;
+}
+
+.img40 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 9;
+  grid-row-end: 11;
+}
+
+.img41 {
+  grid-row-start: 19;
+  grid-row-end: 21;
+}
+
+.img42 {
+  grid-column-start: 1;
+  grid-row-start: 11;
+  grid-row-end: 15;
+  grid-column-end: 2;
+}
+
+.img43 {
+  grid-row-start: 19;
+  grid-row-end: 21;
+}
+
+.img44 {
+  grid-column-start: 7;
+  grid-row-start: 11;
+  grid-column-end: 9;
+  grid-row-end: 13;
+}
+
+.img45 {
+  grid-row-start: 15;
+  grid-column-start: 5;
+  grid-row-end: 17;
+  grid-column-end: 7;
+}
+
+.img46 {
+  grid-column-start: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+
+/* PHOTO CATEGORIES */
 
 
 /*SOCIAL MEDIA SECTION */

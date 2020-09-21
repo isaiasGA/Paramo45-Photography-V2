@@ -42,14 +42,11 @@ import image38 from '../images/DSC_0106.jpg';
 import image39 from '../images/DSC_0322.jpg';
 import image40 from '../images/_DSC0141.jpg';
 import image41 from '../images/DSC_0124.jpg';
-import image42 from '../images/_DSC0038.jpg';
-import image43 from '../images/DSC_0506.jpg';
-import image44 from '../images/DSC_0458.jpg';
-import image45 from '../images/DSC_0294.jpg';
-import image46 from '../images/_DSC0038.jpg';
-import image47 from '../images/DSC_0208.jpg';
-import image48 from '../images/DSC_0429.jpg';
-import image49 from '../images/DSC_0064.jpg';
+import image42 from '../images/DSC_0506.jpg';
+import image43 from '../images/DSC_0458.jpg';
+import image44 from '../images/DSC_0208.jpg';
+import image45 from '../images/DSC_0429.jpg';
+import image46 from '../images/DSC_0064.jpg';
 
 
 const ImageGallery = () => {
@@ -130,7 +127,7 @@ const ImageGallery = () => {
           <div className='galleryImg img24'>
             <img className='image' src={image24} alt={'Kids at the park'}/>
           </div>
-          <div className='galleryImg25'>
+          <div className='galleryImg img25'>
             <img className='image' src={image25} alt={'Brown dog'}/>
           </div>
           <div className='galleryImg img26'>
@@ -195,15 +192,6 @@ const ImageGallery = () => {
           </div>
           <div className='galleryImg img46'>
             <img className='image' src={image46} alt={''}/>
-          </div>
-          <div className='galleryImg img47'>
-            <img className='image' src={image47} alt={''}/>
-          </div>
-          <div className='galleryImg img48'>
-            <img className='image' src={image48} alt={''}/>
-          </div>
-          <div className='galleryImg img49'>
-            <img className='image' src={image49} alt={''}/>
           </div>
         </div>
       </SRLWrapper>
