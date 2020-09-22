@@ -71,14 +71,14 @@ p, form {
 }
 
 .about p {
-    font-size: 2.5rem;
-    width: 41%;
-    text-align: center;
-    margin-left: 29%;
-    padding: 4%;
-    font-style: italic;
+  font-size: 2.5rem;
+  width: 41%;
+  text-align: center;
+  margin-left: 29%;
+  padding: 4%;
+  font-style: italic;
 }
-
+ 
 .about-bttn {
   background: transparent;
   border-radius: 3px;
@@ -114,18 +114,18 @@ p, form {
   margin: .5%;
 }
 
-.imgEffect{
+.imgEffect, .imgNatureEffect{
   transition: 2s;
 }
 
-.imagesContainer:hover .imgEffect{
+.imagesContainer:hover .imgEffect, .natureImages:hover .imgNatureEffect{
   filter: grayscale(1);
 }
 
-.galleryImg {
+.galleryImg, .natureImg {
   cursor: pointer;
 }
-.galleryImg:hover .imgEffect{
+.galleryImg:hover .imgEffect, .natureImg:hover .imgNatureEffect{
   filter: grayscale(0);
 }
 
@@ -421,6 +421,113 @@ p, form {
 
 
 /* PHOTO CATEGORIES */
+
+.catContainer {
+  width: 100%;
+}
+
+.natureImages {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw);
+  grid-gap: .5rem;
+  margin: .5%;
+}
+
+.nature1 {
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.nature2 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.nature3 {
+  grid-row-start: 5;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-end: 8;
+}
+
+.nature4 {
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-row-end: 3;
+}
+
+.nature5 {
+  grid-row-start: 6;
+  grid-row-end: 8;
+}
+
+.nature6 {
+  grid-column-start: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 9;
+}
+
+.nature7 {
+  grid-column-start: 6;
+  grid-row-start: 5;
+  grid-row-end: 8;
+}
+
+.nature8 {
+  grid-row-start: 3;
+  grid-column-start: 4;
+  grid-row-end: 5;
+}
+
+.nature9 {
+  grid-row-start: 5;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.nature10 {
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 5;
+  grid-column-end: 7;
+
+}
+
+.nature11 {
+  grid-column-start: 7;
+  grid-row-start: 5;
+  grid-row-end: 8;
+  grid-column-end: 9;
+}
+
+.nature12 {
+  grid-column-start: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-end: 9;
+}
+
+.nature13 {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 3;
+}
+
+.nature14 {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-row-end: 6;
+}
+
+.nature15 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
 
 
 /*SOCIAL MEDIA SECTION */

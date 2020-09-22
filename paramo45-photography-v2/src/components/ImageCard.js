@@ -48,7 +48,6 @@ import image44 from '../images/DSC_0208.jpg';
 import image45 from '../images/DSC_0429.jpg';
 import image46 from '../images/DSC_0064.jpg';
 
-
 const ImageGallery = () => {
 
   return(

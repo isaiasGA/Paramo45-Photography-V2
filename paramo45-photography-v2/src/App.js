@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Home from './Home';
 import AboutMe from './components/AboutMe';
 import Gallery from './components/Gallery';
+import Nature from './components/photoCategories/Nature';
 import SocialMedia from './components/SocialMedia';
 
 const App = () => {
@@ -16,23 +17,19 @@ const App = () => {
     <SimpleReactLightbox>
       <BrowserRouter>
         <div>
-        <Header />
-        <Switch>
-          <Route path='/about'>
-            <AboutMe />
-          </Route>
-          <Route path='/gallery'>
-            <Gallery />
-          </Route>
-          <Route path='/'>
-            <Home />
-          </Route>
-        </Switch>
-        <SocialMedia />
+          <Header />
+          <Switch>
+            <Route path='/nature' component={Nature} />
+            <Route path='/gallery' component={Gallery}/>
+            <Route path='/about' component={AboutMe}/>
+            <Route path='/' component={Home}/>
+          </Switch>
+          <SocialMedia />
         </div>
       </BrowserRouter>
     </SimpleReactLightbox>
-  </div>)
+  </div>
+  );
 }
 
 export default App;
