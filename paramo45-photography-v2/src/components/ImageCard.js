@@ -56,142 +56,142 @@ const ImageGallery = () => {
       <SRLWrapper>
         <div className='imagesContainer'>
           <div className='galleryImg img1'>
-            <img className='image' src={image1} alt={'silhouette at the beach'}/>
+            <img className='image imgEffect' src={image1} alt={'silhouette at the beach'}/>
           </div>
           <div className='galleryImg img2'>
-            <img className='image' src={image2} alt={'architecture'}/>
+            <img className='image imgEffect' src={image2} alt={'architecture'}/>
           </div>
           <div className='galleryImg img3'>
-            <img className='image' src={image3} alt={'three lights on freeway'}/>
+            <img className='image imgEffect' src={image3} alt={'three lights on freeway'}/>
           </div>
           <div className='galleryImg img4'>
-            <img className='image' src={image4} alt={'two people walking'}/>
+            <img className='image imgEffect' src={image4} alt={'two people walking'}/>
           </div>
           <div className='galleryImg img5'>
-            <img className='image' src={image5} alt={'seagull'}/>
+            <img className='image imgEffect' src={image5} alt={'seagull'}/>
           </div>
           <div className='galleryImg img6'>
-            <img className='image' src={image6} alt={'mountain'}/>
+            <img className='image imgEffect' src={image6} alt={'mountain'}/>
           </div>
           <div className='galleryImg img7'>
-            <img className='image' src={image7} alt={'tree branches'}/>
+            <img className='image imgEffect' src={image7} alt={'tree branches'}/>
           </div>
           <div className='galleryImg img8'>
-            <img className='image' src={image8} alt={'street artist'}/>
+            <img className='image imgEffect' src={image8} alt={'street artist'}/>
           </div>
           <div className='galleryImg img9'>
-            <img className='image' src={image9} alt={'restaurant at the pier'}/>
+            <img className='image imgEffect' src={image9} alt={'restaurant at the pier'}/>
           </div>
           <div className='galleryImg img10'>
-            <img className='image' src={image10} alt={'Several silhouettes by the sea'}/>
+            <img className='image imgEffect' src={image10} alt={'Several silhouettes by the sea'}/>
           </div>
           <div className='galleryImg img11'>
-            <img className='image' src={image11} alt={'Hand Statues'}/>
+            <img className='image imgEffect' src={image11} alt={'Hand Statues'}/>
           </div>
           <div className='galleryImg img12'>
-            <img className='image' src={image12} alt={'Lights on the freeway'}/>
+            <img className='image imgEffect' src={image12} alt={'Lights on the freeway'}/>
           </div>
           <div className='galleryImg img13'>
-            <img className='image' src={image13} alt={'Domestic pigs'}/>
+            <img className='image imgEffect' src={image13} alt={'Domestic pigs'}/>
           </div>
           <div className='galleryImg img14'>
-            <img className='image' src={image14} alt={'Scientist with test tube'}/>
+            <img className='image imgEffect' src={image14} alt={'Scientist with test tube'}/>
           </div>
           <div className='galleryImg img15'>
-            <img className='image' src={image15} alt={'River with rocks'}/>
+            <img className='image imgEffect' src={image15} alt={'River with rocks'}/>
           </div>
           <div className='galleryImg img16'>
-            <img className='image' src={image16} alt={'Mexican toy'}/>
+            <img className='image imgEffect' src={image16} alt={'Mexican toy'}/>
           </div>
           <div className='galleryImg img17'>
-            <img className='image' src={image17} alt={'Chinese ornament'}/>
+            <img className='image imgEffect' src={image17} alt={'Chinese ornament'}/>
           </div>
           <div className='galleryImg img18'>
-            <img className='image' src={image18} alt={'Black cat'}/>
+            <img className='image imgEffect' src={image18} alt={'Black cat'}/>
           </div>
           <div className='galleryImg img19'>
-            <img className='image' src={image19} alt={'Cactus'}/>
+            <img className='image imgEffect' src={image19} alt={'Cactus'}/>
           </div>
           <div className='galleryImg img20'>
-            <img className='image' src={image20} alt={'Boy gazing at river'}/>
+            <img className='image imgEffect' src={image20} alt={'Boy gazing at river'}/>
           </div>
           <div className='galleryImg img21'>
-            <img className='image' src={image21} alt={'Spanish architecture'}/>
+            <img className='image imgEffect' src={image21} alt={'Spanish architecture'}/>
           </div>
           <div className='galleryImg img22'>
-            <img className='image' src={image22} alt={'Two women walking'}/>
+            <img className='image imgEffect' src={image22} alt={'Two women walking'}/>
           </div>
           <div className='galleryImg img23'>
-            <img className='image' src={image23} alt={'Solo silhouette at the beach'}/>
+            <img className='image imgEffect' src={image23} alt={'Solo silhouette at the beach'}/>
           </div>
           <div className='galleryImg img24'>
-            <img className='image' src={image24} alt={'Kids at the park'}/>
+            <img className='image imgEffect' src={image24} alt={'Kids at the park'}/>
           </div>
           <div className='galleryImg img25'>
-            <img className='image' src={image25} alt={'Brown dog'}/>
+            <img className='image imgEffect' src={image25} alt={'Brown dog'}/>
           </div>
           <div className='galleryImg img26'>
-            <img className='image' src={image26} alt={'Bird ornament'}/>
+            <img className='image imgEffect' src={image26} alt={'Bird ornament'}/>
           </div>
           <div className='galleryImg img27'>
-            <img className='image' src={image27} alt={'Red flower'}/>
+            <img className='image imgEffect' src={image27} alt={'Red flower'}/>
           </div>
           <div className='galleryImg img28'>
-            <img className='image' src={image28} alt={'Sunset at the beach'}/>
+            <img className='image imgEffect' src={image28} alt={'Sunset at the beach'}/>
           </div>
           <div className='galleryImg img29'>
-            <img className='image' src={image29} alt={'River'}/>
+            <img className='image imgEffect' src={image29} alt={'River'}/>
           </div>
           <div className='galleryImg img30'>
-            <img className='image' src={image30} alt={'Cat silhouette'}/>
+            <img className='image imgEffect' src={image30} alt={'Cat silhouette'}/>
           </div>
           <div className='galleryImg img31'>
-            <img className='image' src={image31} alt={''}/>
+            <img className='image imgEffect' src={image31} alt={''}/>
           </div>
           <div className='galleryImg img32'>
-            <img className='image' src={image32} alt={''}/>
+            <img className='image imgEffect' src={image32} alt={''}/>
           </div>
           <div className='galleryImg img33'>
-            <img className='image' src={image33} alt={''}/>
+            <img className='image imgEffect' src={image33} alt={''}/>
           </div>
           <div className='galleryImg img34'>
-            <img className='image' src={image34} alt={''}/>
+            <img className='image imgEffect' src={image34} alt={''}/>
           </div>
           <div className='galleryImg img35'>
-            <img className='image' src={image35} alt={''}/>
+            <img className='image imgEffect' src={image35} alt={''}/>
           </div>
           <div className='galleryImg img36'>
-            <img className='image' src={image36} alt={''}/>
+            <img className='image imgEffect' src={image36} alt={''}/>
           </div>
           <div className='galleryImg img37'>
-            <img className='image' src={image37} alt={''}/>
+            <img className='image imgEffect' src={image37} alt={''}/>
           </div>
           <div className='galleryImg img38'>
-            <img className='image' src={image38} alt={''}/>
+            <img className='image imgEffect' src={image38} alt={''}/>
           </div>
           <div className='galleryImg img39'>
-            <img className='image' src={image39} alt={''}/>
+            <img className='image imgEffect' src={image39} alt={''}/>
           </div>
           <div className='galleryImg img40'>
-            <img className='image' src={image40} alt={''}/>
+            <img className='image imgEffect' src={image40} alt={''}/>
           </div>
           <div className='galleryImg img41'>
-            <img className='image' src={image41} alt={''}/>
+            <img className='image imgEffect' src={image41} alt={''}/>
           </div>
           <div className='galleryImg img42'>
-            <img className='image' src={image42} alt={''}/>
+            <img className='image imgEffect' src={image42} alt={''}/>
           </div>
           <div className='galleryImg img43'>
-            <img className='image' src={image43} alt={''}/>
+            <img className='image imgEffect' src={image43} alt={''}/>
           </div>
           <div className='galleryImg img44'>
-            <img className='image' src={image44} alt={''}/>
+            <img className='image imgEffect' src={image44} alt={''}/>
           </div>
           <div className='galleryImg img45'>
-            <img className='image' src={image45} alt={''}/>
+            <img className='image imgEffect' src={image45} alt={''}/>
           </div>
           <div className='galleryImg img46'>
-            <img className='image' src={image46} alt={''}/>
+            <img className='image imgEffect' src={image46} alt={''}/>
           </div>
         </div>
       </SRLWrapper>

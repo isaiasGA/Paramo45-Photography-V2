@@ -25,8 +25,8 @@ const Home = () => {
             <div className='content'>
                <h2 className='header'>Nature</h2>
             </div>
-            <div className='image'>
-              <img className='ui large image' src={natureImg} alt='river'/>
+            <div className='imageNature'>
+              <img className='image' src={natureImg} alt='river'/>
             </div>
           </Link>
             
@@ -34,8 +34,8 @@ const Home = () => {
             <div className ='content'>
               <h2 className='header'>Portrait</h2>
             </div>
-            <div className='image'>      
-              <img className='portrait-img' src={portraitImg} alt='baby'/>
+            <div className='imagePortrait'>      
+              <img className='image' src={portraitImg} alt='baby'/>
             </div>        
           </Link>
         
@@ -43,8 +43,8 @@ const Home = () => {
             <div className='content'>
               <h2 className='header'>World Around Me</h2>
             </div>
-            <div className='image'>
-               <img  className='ui large image' src={worldImg} alt='Freeway'/>
+            <div className='imageWorld'>
+               <img  className='image' src={worldImg} alt='Freeway'/>
             </div> 
           </Link>
       </section>
