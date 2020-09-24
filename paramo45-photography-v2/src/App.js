@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Home from './Home';
 import AboutMe from './components/AboutMe';
 import Gallery from './components/Gallery';
+import World from './components/photoCategories/World';
 import Nature from './components/photoCategories/Nature';
 import SocialMedia from './components/SocialMedia';
 
@@ -19,10 +20,11 @@ const App = () => {
         <div>
           <Header />
           <Switch>
+            <Route path='/world-around-me' component={World} />
             <Route path='/nature' component={Nature} />
-            <Route path='/gallery' component={Gallery}/>
-            <Route path='/about' component={AboutMe}/>
-            <Route path='/' component={Home}/>
+            <Route path='/gallery' component={Gallery} />
+            <Route path='/about' component={AboutMe} />
+            <Route path='/' component={Home} />
           </Switch>
           <SocialMedia />
         </div>

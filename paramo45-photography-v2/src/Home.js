@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import natureImg from './images/nature.jpg';
-import portraitImg from './images/portrait.jpg';
 import worldImg from './images/world.jpg';
 
 const Home = () => {
@@ -40,11 +39,6 @@ const Home = () => {
     </div>
     );
 }
-
-  //VIEWPORTS FOR PORTRAIT CARD
-
-// style={{ height: '373px'}} for small screen
-//style={{ height: '482px'}} for larger screen
 
 export default Home;
 
