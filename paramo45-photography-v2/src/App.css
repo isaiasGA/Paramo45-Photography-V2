@@ -103,6 +103,30 @@ p, form {
    outline: none;
 }
 
+.aboutMe {
+  padding-bottom: 8.2%;
+}
+
+.aboutMe h1 {
+  font-size: 4rem;
+  padding: 3% 0;
+}
+
+.description img {
+  width: 19.4%;
+  border-radius: 50%;
+  margin-bottom: 3%;
+}
+
+.description h2 {
+  font-size: 3%;
+}
+
+.description p {
+  font-size: 2.5rem;
+  padding: 0 15%;
+}
+
 
 /*Gallery*/
 

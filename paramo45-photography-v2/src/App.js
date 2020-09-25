@@ -5,6 +5,7 @@ import SimpleReactLightbox from 'simple-react-lightbox';
 
 import Header from './components/Header';
 import Home from './Home';
+import Newsletter from './components/Newsletter';
 import AboutMe from './components/AboutMe';
 import Gallery from './components/Gallery';
 import World from './components/photoCategories/World';
@@ -20,6 +21,7 @@ const App = () => {
         <div>
           <Header />
           <Switch>
+            <Route path='/newsletter' component={Newsletter}/>
             <Route path='/world-around-me' component={World} />
             <Route path='/nature' component={Nature} />
             <Route path='/gallery' component={Gallery} />
