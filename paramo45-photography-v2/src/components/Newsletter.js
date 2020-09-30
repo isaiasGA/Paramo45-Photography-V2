@@ -2,12 +2,13 @@ import React, {useEffect, useState} from 'react';
 import * as yup from 'yup';
 import fire from  '../api/firebase';
 
+import NewsletterModal from './NewsletterModal';
+
 const formValidation = yup.object().shape({
   name: yup.string().required('Name is a required field'),
   lastName: yup.string().required('Last name is a required field'),
   email: yup.string().required('Please provide an email')
 });
-
 
 function Newsletter() {
 
@@ -22,6 +23,8 @@ function Newsletter() {
     lastName: '',
     email: ''
   });
+
+  const [modalOpen, setModalOpen] = useState(false);
 
   const [buttonDisabled, setButtonDisabled] = useState(true);
 
@@ -67,57 +70,71 @@ const submitForm = event => {
     lastName: formState.lastName,
     email: formState.email
   });
+  setFormState({
+    name: '',
+    lastName: '',
+    email: ''
+  })
+
+  setModalOpen(true);
 }
 
   return (
-    <div className='newsletter'>
-      <div className='newsletterHeader'>
-        <h1>Newsletter</h1>
-        <h3>Subscribe to my newsletter to get notified when I upload new Photos!</h3>
+    <>
+      <NewsletterModal 
+        key='modal'
+        modalOpen={modalOpen}
+        modalClose={!modalOpen}
+      />
+      <div className='newsletter'>
+        <div className='newsletterHeader'>
+          <h1>Newsletter</h1>
+          <h3>Subscribe to my newsletter to get notified when I upload new Photos!</h3>
+        </div>
+        <form onSubmit={submitForm}>
+          <label htmlFor='name'>
+            Name:
+            <input 
+              id='name'
+              name='name'
+              type='text'
+              value={formState.name}
+              onChange={inputChange}
+              placeholder='Name'
+              autoComplete='off'
+            />
+            {errors.name.length > 0 ? <p className='error'>{errors.name}</p> : null}
+          </label>
+          <label htmlFor='lastName'>
+            Last Name:
+            <input 
+              id='lastName'
+              name='lastName'
+              type='text'
+              value={formState.lastName}
+              onChange={inputChange}
+              placeholder='Last Name'
+              autoComplete='off'
+            /> 
+            {errors.name.length > 0 ? <p className='error'>{errors.lastName}</p> : null}
+          </label>
+          <label htmlFor='email'>
+            Email:
+            <input 
+              id='email'
+              name='email'
+              type='email'
+              value={formState.email}
+              onChange={inputChange}
+              placeholder='Email'
+              autoComplete='off'
+            />
+            {errors.name.length > 0 ? <p className='error'>{errors.email}</p> : null}
+          </label>
+          <button disabled={buttonDisabled}>Submit</button>
+        </form>
       </div>
-      <form onSubmit={submitForm}>
-        <label htmlFor='name'>
-          Name:
-          <input 
-            id='name'
-            name='name'
-            type='text'
-            value={formState.name}
-            onChange={inputChange}
-            placeholder='Name'
-            autoComplete='off'
-          />
-          {errors.name.length > 0 ? <p className='error'>{errors.name}</p> : null}
-        </label>
-        <label htmlFor='lastName'>
-          Last Name:
-          <input 
-            id='lastName'
-            name='lastName'
-            type='text'
-            value={formState.lastName}
-            onChange={inputChange}
-            placeholder='Last Name'
-            autoComplete='off'
-          /> 
-          {errors.name.length > 0 ? <p className='error'>{errors.lastName}</p> : null}
-        </label>
-        <label htmlFor='email'>
-          Email:
-          <input 
-            id='email'
-            name='email'
-            type='email'
-            value={formState.email}
-            onChange={inputChange}
-            placeholder='Email'
-            autoComplete='off'
-          />
-          {errors.name.length > 0 ? <p className='error'>{errors.email}</p> : null}
-        </label>
-        <button disabled={buttonDisabled}>Submit</button>
-      </form>
-    </div>
+    </>
   );
 }
 
