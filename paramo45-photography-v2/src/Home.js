@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <div className='home'>
       <section className='top-section'>
+        {/* <div className='titleContainer'></div> */}
         <div data-aos="fade-down" data-aos-duration='2000' data-aos-easing='ease-in-quart' className='title'>
           <h1 className='paramo-title'>Paramo45</h1>
           <h2 className='photo-title'>Photography</h2>
@@ -14,11 +15,12 @@ const Home = () => {
       </section>
         <div className=' about'>
           <p data-aos='fade-right' data-aos-duration='2000' data-aos-easing='ease-in-quad'>“Souls cross ages like clouds cross skies, an' tho' a cloud's shape nor hue nor size don't stay the same, it's still a cloud an' so is a soul.” - David Mitchell, Cloud Atlas</p>
-          <div data-aos='fade-left' data-aos-duration='2000'>
+          <div data-aos='fade-down' data-aos-duration='2000'>
             <Link className='about-bttn' to='/about'>About Me</Link>
           </div>
         </div>
-      <section data-aos="fade-up" data-aos-duration='2000' data-aos-easing='ease-in-quart' className='ui three stackable cards catContainer' style={{marginLeft:'15%', marginBottom:'7%'}}>
+      <div className='categoryCards'>
+      <div className='sectionCards' data-aos="fade-up" data-aos-duration='2000' data-aos-easing='ease-in-quart' className='ui three stackable cards catContainer'>
         <Link className=' card' to ='/nature'>
           <div className='content'>
               <h2 className='header'>Nature</h2>
@@ -35,7 +37,8 @@ const Home = () => {
               <img className='image' src={worldImg} alt='Freeway'/>
           </div> 
         </Link>
-      </section>
+      </div>
+      </div>
     </div>
     );
 }

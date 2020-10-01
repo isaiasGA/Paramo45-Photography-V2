@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+Infant&display=swap');
 
 /* GENERAL STYLES */
-* {
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
+
+.html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 html {
   box-sizing: border-box;
@@ -50,6 +53,12 @@ p, form {
     font-style: italic;
     font-size: 11rem;
     font-weight: normal;
+}
+
+.categoryCards {
+  margin-left: 21%;
+  margin-bottom: 7%;
+  width: 100%;
 }
 
 .photo-title {
@@ -99,8 +108,8 @@ p, form {
 }
 .about-bttn:active {
   background: #DCC4A9;
-          box-shadow: inset 0px 0px 5px #A48B74;
-   outline: none;
+  box-shadow: inset 0px 0px 5px #A48B74;
+  outline: none;
 }
 
 .aboutMe {
@@ -783,9 +792,9 @@ button:active {
   }
  
   .top-section {
-    height: 68rem;
+    height: 92vh;
     background-attachment: fixed;
-    background-size: 100% 80%;
+    background-size: 126vw 105vh;
   }
   .title {
     padding: 54% 0;
@@ -793,13 +802,20 @@ button:active {
   .paramo-title {
     font-size: 3rem;
    }
+   
    .photo-title {
     font-size: 2rem;
    }
+
    .about p {
     font-size: 2rem;
     width: 69%;
     margin-left: 17%;
     padding: 9%;
+   }
+
+   .categoryCards {
+    margin-left: 0%;
+    padding-left: 6%;
    }
 }
