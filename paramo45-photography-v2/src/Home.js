@@ -7,10 +7,11 @@ const Home = () => {
   return (
     <div className='home'>
       <section className='top-section'>
-        {/* <div className='titleContainer'></div> */}
         <div data-aos="fade-down" data-aos-duration='2000' data-aos-easing='ease-in-quart' className='title'>
+        <div className='titleContainer'>
           <h1 className='paramo-title'>Paramo45</h1>
           <h2 className='photo-title'>Photography</h2>
+          </div>
         </div>
       </section>
         <div className=' about'>

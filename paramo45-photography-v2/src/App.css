@@ -37,7 +37,7 @@ p, form {
 /* TOP SECTION */
 
 .top-section {
-  background-image: url(./images/homeBck.jpg);
+  background-image: url(./images/_DSC0051.jpg);
   height: 990px;
   background-position:center;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ p, form {
 }
 
 .description h2 {
-  font-size: 3%;
+  font-size: 4rem;
 }
 
 .description p {
@@ -788,23 +788,23 @@ button:active {
 
 @media (max-width: 540px) {
   a {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
  
   .top-section {
     height: 92vh;
     background-attachment: fixed;
-    background-size: 126vw 105vh;
+    background-size: 151vw 105vh;
   }
   .title {
     padding: 54% 0;
   }
   .paramo-title {
-    font-size: 3rem;
+    font-size: 5rem;
    }
    
    .photo-title {
-    font-size: 2rem;
+    font-size: 3.5rem;
    }
 
    .about p {
@@ -818,4 +818,62 @@ button:active {
     margin-left: 0%;
     padding-left: 6%;
    }
+
+   .titleContainer {
+    position: absolute;
+    bottom: 65%;
+    right: 0;
+    width: 58%;
+   }
+
+   .imageNature, .imageWorld {
+    height: 52vh;
+   }
+
+   .social-container h3 {
+     font-size: 2rem;
+   }
+
+   .aboutMe {
+     padding-bottom: 17.2%;
+    }    
+
+    .aboutMe h1 {
+      font-size: 3rem;
+    }
+
+    .description img {
+      width: 31%;
+    }
+
+    .description h2 {
+      font-size: 3rem;
+  }
+
+    .description p {
+      font-size: 2rem;
+    }
+
+    .newsletterHeader h1 {
+      font-size: 4rem;
+    }
+
+    .newsletterHeader h3 {
+      font-size: 2rem;
+      padding: 0 13%;
+  }
+
+  label {
+    width: 51%;
+  }
+
+  input {
+    font-size: 1.2rem;
+  }
+
+  .imagesContainer, .natureImages, .worldImages {
+    display: list-item;
+    margin: 1%;
+  }
+
 }

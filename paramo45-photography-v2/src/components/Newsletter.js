@@ -91,6 +91,7 @@ const submitForm = event => {
           <h1>Newsletter</h1>
           <h3>Subscribe to my newsletter to get notified when I upload new Photos!</h3>
         </div>
+        <div className='newsletterForm'>
         <form onSubmit={submitForm}>
           <label htmlFor='name'>
             Name:
@@ -133,6 +134,7 @@ const submitForm = event => {
           </label>
           <button disabled={buttonDisabled}>Submit</button>
         </form>
+        </div>
       </div>
     </>
   );
