@@ -4,7 +4,7 @@ Paramo45 is a website that features my favorite collection of photos that I have
 
 #### Main Page
 
-<img src='https://i.gyazo.com/1ad51dca030f66cccc6b963eb14d9abc.gif' alt='home' height='300'>
+<img src='https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' alt='home' height='300'>
 
 <!-- #### Gallery
 
@@ -12,7 +12,7 @@ Paramo45 is a website that features my favorite collection of photos that I have
 
 #### Image Viewer
 
-<img src ='https://i.gyazo.com/200596583c209a5c31e68127d4f1ce3b.gif' alt='Viewer'>
+<img src ='https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' alt='Viewer'>
 
 Link: [Paramo45](https://paramo45-fd869.web.app/) -->
 
