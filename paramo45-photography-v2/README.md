@@ -4,15 +4,15 @@ Paramo45 is a website that features my favorite collection of photos that I have
 
 #### Main Page
 
-![Demo One](Paramo45Demo1.gif)
+![Demo One](https://i.gyazo.com/1ad51dca030f66cccc6b963eb14d9abc.gif)
 
 #### Gallery
 
-![Demo Two](Paramo45Demo2.gif)
+![Demo Two](https://i.gyazo.com/5efde731c1afdf946b3ad6c9b5d4d0c0.gif)
 
 #### Image Viewer
 
-![Demo Three](Paramo45Demo3.gif)
+![Demo Three](https://i.gyazo.com/200596583c209a5c31e68127d4f1ce3b.gif)
 
 Link: [Paramo45](https://paramo45-fd869.web.app/)
 
