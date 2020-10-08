@@ -21,6 +21,8 @@ import world17 from '../../images/DSC_0506.jpg';
 import world18 from '../../images/world.jpg';
 
 const World = () => {
+  window.scrollTo(0, 0);
+
   return (
     <SRLWrapper>
       <div className='worldImages'>

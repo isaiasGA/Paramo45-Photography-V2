@@ -1,6 +1,5 @@
 import React  from 'react';
 import {SRLWrapper} from 'simple-react-lightbox'
-            //beach
 import image1 from '../images/DSC0035.jpg';
 import image2 from '../images/_DSC0037.jpg';
 import image3 from '../images/_DSC0059.jpg';

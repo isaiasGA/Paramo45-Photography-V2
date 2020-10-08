@@ -19,6 +19,8 @@ import nature15 from '../../images/nature.jpg';
 
 
 const Nature = () => {
+  window.scrollTo(0, 0);
+
   return(
     <SRLWrapper>
       <div className='natureImages'>
