@@ -4,7 +4,7 @@ Paramo45 is a website that features my favorite collection of photos that I have
 
 #### Main Page
 
-<img src ='https://i.gyazo.com/1ad51dca030f66cccc6b963eb14d9abc.gif' alt='home' height='300'>
+[![Image from Gyazo](https://i.gyazo.com/1ad51dca030f66cccc6b963eb14d9abc.gif)](https://gyazo.com/1ad51dca030f66cccc6b963eb14d9abc)
 
 <!-- #### Gallery
 
