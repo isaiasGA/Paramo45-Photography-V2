@@ -774,19 +774,30 @@ button:active {
 }
 
 .instagram {
-  color: black;
+  color:  #bc2a8d;
 }
 .twitter {
   color: #49a1eb;
 }
-.youtube {
-  color: #eb3223;
+.outline  {
+  color: #646464;
+}
+
+.css-pp29ct {
+  width: 30% !important;
+  height: 41vh !important;
 }
 
 
 /* MOBILE MEDIA QUERY */
 
 @media (max-width: 540px) {
+
+  .css-pp29ct {
+    width: auto !important;
+    height: auto !important;
+  }
+
   a {
     font-size: 2rem;
   }
