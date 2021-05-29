@@ -791,12 +791,14 @@ button:active {
 
 /* MOBILE MEDIA QUERY */
 
-@media (max-width: 540px) {
-
+@media(max-width: 900px) {
   .css-pp29ct {
     width: auto !important;
     height: auto !important;
   }
+}
+
+@media (max-width: 540px) {
 
   a {
     font-size: 2rem;
